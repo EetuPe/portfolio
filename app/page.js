@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <main className="bg-white px-10 min-h-screen md:px-20">
-        <section className="mb-20">
+        <section className="md:mb-20 mb-10">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-adlam">EetuPe</h1>
             <ul className="flex items-center">
