@@ -57,9 +57,7 @@ export default function Home() {
         </section>
 
         <section className="md:px-10">
-          <h3 className="text-3xl py-1 dark:text-white">
-            Projects I've worked on:
-          </h3>
+          <h3 className="text-3xl py-1">Projects I've worked on:</h3>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <div className="relative w-140 h-80 overflow-hidden md:h-40 md:w-140 rounded">
