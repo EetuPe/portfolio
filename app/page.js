@@ -30,7 +30,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-left pt-10 px-10 flex justify-between">
+          <div className="text-left pt-10 md:px-10 flex justify-between">
             <div>
               <h2 className="text-5xl py-2 text-red-600 font-medium md:text-6xl">
                 Eetu Petänen
@@ -50,19 +50,19 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-full w-40 h-40 overflow-hidden md:h-80 md:w-80">
+            <div className="relative rounded-lg md:rounded-full w-40 h-40 overflow-hidden md:h-80 md:w-80">
               <Image src={profile} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
 
-        <section className="px-10">
+        <section className="md:px-10">
           <h3 className="text-3xl py-1 dark:text-white">
             Projects I've worked on:
           </h3>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <div className="relative w-140 h-80 overflow-hidden md:h-60 md:w-140 rounded">
+              <div className="relative w-140 h-80 overflow-hidden md:h-40 md:w-140 rounded">
                 <Image src={produni} layout="fill" objectFit="cover" />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2  ">Produni</h3>
@@ -111,7 +111,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <div className="relative w-140 h-80 overflow-hidden md:h-60 md:w-140 rounded">
+              <div className="relative w-140 h-80 overflow-hidden md:h-40 md:w-140 rounded">
                 <Image src={mentis} layout="fill" objectFit="cover" />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Mentis</h3>
@@ -162,7 +162,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <div className="relative w-140 h-80 overflow-hidden md:h-60 md:w-140 rounded">
+              <div className="relative w-140 h-80 overflow-hidden md:h-40 md:w-140 rounded">
                 <Image src={multitool} layout="fill" objectFit="cover" />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2 ">DMX Multitool</h3>
